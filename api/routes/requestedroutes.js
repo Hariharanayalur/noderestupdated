@@ -22,7 +22,7 @@ router.get('/',(req,res,next) => {
            requests: docs.map(doc =>{
                return {
                    _id: doc._id,
-                   route: doc.routeId,
+                   route: doc.route,
                    studentId: doc.studentId,
                    studentName:doc.studentName,
                    location:doc.location,
